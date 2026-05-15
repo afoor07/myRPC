@@ -1,0 +1,58 @@
+# Объектные файлы
+*.o
+*.ko
+*.obj
+*.elf
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+myRPC-client
+myRPC-server
+
+# Файлы зависимостей
+*.d
+
+# Временные файлы
+*.tmp
+*.temp
+/tmp/
+
+# Файлы сборки
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Отладочные файлы
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Файлы журналов
+*.log
+
+# Файлы конфигурации пользователя
+*.conf.user
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debian пакеты
+*.deb
+*.ddeb
+*.buildinfo
+*.changes
+debian/.debhelper/
+debian/*.substvars
+
+# CMake (если используете)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake

@@ -1,0 +1,13 @@
+[Unit]
+Description=myRPC Server Daemon
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/run/myrpc-server.pid
+ExecStart=/usr/local/bin/myrpc-server
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
